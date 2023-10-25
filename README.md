@@ -45,14 +45,14 @@ changes will not show up in the MD file.**
 cd /aryeelab/users/corri/Oct24_Presentation/Aryee_LM_Oct24_2023
 ls # Example_RMD.md   Figures    README.Rmd Example_RMD.Rmd  README.md
 
-git add .
-git commit -m "Add files"
+git add . # add files
+git commit -m "Add files" # commit the files, and include a message
 
 # check that commit was successful
 #git log
-git cherry -v
+git cherry -v # check commit
 
-git branch
-git pull https://github.com/corriene-sept/Aryee_LM_Oct24_2023.git main
-git push https://github.com/corriene-sept/Aryee_LM_Oct24_2023.git main
+git branch # check which branch we're on
+git pull https://github.com/corriene-sept/Aryee_LM_Oct24_2023.git main # pull changes from github
+git push https://github.com/corriene-sept/Aryee_LM_Oct24_2023.git main # push changes to github
 ```
